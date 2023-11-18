@@ -9,6 +9,7 @@ type PostType = {
 	body: string
 }
 
+
 function App() {
 	const [posts, setPosts] = useState<null | PostType[]>(null)
 	useEffect(() => {
