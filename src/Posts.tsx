@@ -10,6 +10,7 @@ export type PostType = {
 	body: string
 }
 
+
 export const Posts = () => {
 	const [posts, setPosts] = useState<Array<PostType>>([])
 	const [newTitle, setNewTitle] = useState('')
