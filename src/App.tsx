@@ -10,6 +10,7 @@ type PostType = {
 }
 
 
+
 function App() {
 	const [posts, setPosts] = useState<null | PostType[]>(null)
 	useEffect(() => {
