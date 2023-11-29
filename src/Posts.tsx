@@ -14,7 +14,6 @@ export const Posts = () => {
 	const [posts, setPosts] = useState<Array<PostType>>([])
 	const [newTitle, setNewTitle] = useState('')
 
-
 	const fetchPosts = () => {
 		postAPI.getPosts().then(res => setPosts(res.data))
 	}
