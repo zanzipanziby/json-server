@@ -6,7 +6,6 @@ const instance = axios.create({
 	baseURL: 'https://jsonplaceholder.typicode.com/'
 })
 
-
 export const postAPI = {
 	getPosts(){
 		return instance.get<PostType[]>('posts')
